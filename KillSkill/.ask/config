@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.351d055d-adbc-43df-8f37-1f31f4aff88d",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "b592f16829ec1f84998c8543e1da14a0"
+        },
+        "interactionModel": {
+          "fr-FR": {
+            "eTag": "dbfb13951d02b06b1922551c85319d87"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:995071573889:function:ask-custom-lille-first-skill-fr",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-lille-first-skill-fr",
+            "handler": "index.handler",
+            "revisionId": "4cca1bbd-6383-4c82-b2f6-b46ce0cd747f",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
